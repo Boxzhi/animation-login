@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "抚州公用水务",
+        "description": "输入公众号抓包的参数以查询用水账单。",
+        "data": {
+          "authorization": "Authorization (OpenID)",
+          "token": "Token (JWT)",
+          "user_no": "用户编号",
+          "user_name": "用户姓名",
+          "start_date": "起始年月 (YYYYMM)",
+          "end_date": "结束年月 (YYYYMM)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接到接口，请检查参数。"
+    }
+  }
+}
